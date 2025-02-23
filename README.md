@@ -5,7 +5,7 @@
 - Basic error checking is implemented, such as checking if the right cli parameters are used, the right domain name is valid, etc.
 
 ## To-do
-- Add a dns record type as the --type flag (A, AAAA, MX, CNAME, TXT, etc.)
+- Add a dns record support for CNAME
 
 ## Tests (Depending on what functionality you are testing)
 - go run .\main.go --query A google.com   
