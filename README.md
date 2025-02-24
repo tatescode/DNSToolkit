@@ -5,7 +5,9 @@
 - Basic error checking is implemented, such as checking if the right cli parameters are used, the right domain name is valid, etc.
 
 ## To-do
-- Add a dns record support for CNAME
+- Find new ways to refactor code/ not repeat the same error functions over and over
+- Redesign program output using separate function(s)
+- Add new DNS types, and prepare for WHOIS lookups
 
 ## Tests (Depending on what functionality you are testing)
 - go run .\main.go --query A google.com   
